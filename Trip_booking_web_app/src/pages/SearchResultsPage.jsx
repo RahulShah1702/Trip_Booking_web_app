@@ -24,7 +24,6 @@ function SearchResultsPage() {
         trip => parseInt(trip.price) <= parseInt(filters.price)
       );
     }
-    // You can add a similar filter for duration
     setTrips(filteredData);
   }, [filters]);
 

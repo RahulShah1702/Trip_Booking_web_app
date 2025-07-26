@@ -32,7 +32,6 @@ function CheckoutPage() {
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       newErrors.email = 'Email address is invalid';
     }
-    // if (!formData.phone) newErrors.phone = 'Phone number is required';
     if (!formData.cardNumber) newErrors.cardNumber = 'Card number is required';
     if (!formData.expiryDate) newErrors.expiryDate = 'Expiry date is required';
     if (!formData.cvv) newErrors.cvv = 'CVV is required';

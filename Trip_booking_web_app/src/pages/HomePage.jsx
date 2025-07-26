@@ -13,8 +13,7 @@ function HomePage() {
       <header className="home-hero">
         <img src="images/bg.jpg" alt="" srcset="" />
         <h1>Find Your Dream Vacation</h1>
-        <p>Explore the world with XYZ Travel Agency</p>
-        {/* You can add a SearchBar component here */}
+        <p>Explore the world with RR Travels</p>
       </header>
       
       <section className="featured-destinations">
