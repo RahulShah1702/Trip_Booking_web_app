@@ -1,7 +1,7 @@
-## RR Travels - Trip Booking Platform
+# RR Travels - Trip Booking Platform
 This is a responsive front-end application built for the XYZ Travel Agency.  It serves as a modern, user-friendly platform for customers to browse, filter, and book their dream vacation packages.
 
-# Features
+## Features
 
 1. Dynamic Trip Filtering: Users can filter a wide range of trip packages by price, location, and duration. 
 
@@ -9,7 +9,7 @@ This is a responsive front-end application built for the XYZ Travel Agency.  It 
 ## RR Travels - Trip Booking Platform
 This is a responsive front-end application built for the XYZ Travel Agency.  It serves as a modern, user-friendly platform for customers to browse, filter, and book their dream vacation packages.
 
-# Features
+## Features
 
 1. Dynamic Trip Filtering: Users can filter a wide range of trip packages by price, location, and duration. 
 
@@ -27,13 +27,13 @@ This is a responsive front-end application built for the XYZ Travel Agency.  It 
 
 5. Responsive Design: The entire application is designed to be fully responsive, providing a seamless experience on mobile, tablet, and desktop devices. 
 
-# Steps to Set Up and Run the Application
+## Steps to Set Up and Run the Application
 Follow these steps to get the project running on your local machine for development and testing purposes.
 
-# Prerequisites
+## Prerequisites
 You need to have Node.js (which includes npm) installed on your computer.
 
-Installation
+## Installation
 1. Clone the repository to your local machine:
 ```
 git clone <your-public-git-repository-url>
@@ -55,7 +55,7 @@ npm run dev
 5. Open your browser and visit http://localhost:5173 to see the application live.
 ______________________________________________________________________________________________________________________________________________
 
-My Approach to the Assignment
+## My Approach to the Assignment
 This project was developed using a modern, component-based approach to fulfill the assignment requirements.
 
 
@@ -103,15 +103,4 @@ Responsiveness: CSS Flexbox and Grid were used to create a fluid layout that ada
 
 5. Responsive Design: The entire application is designed to be fully responsive, providing a seamless experience on mobile, tablet, and desktop devices. 
 
-# Steps to Set Up and Run the Application
-Follow these steps to get the project running on your local machine for development and testing purposes.
 
-# Prerequisites
-You need to have Node.js (which includes npm) installed on your computer.
-
-Installation
-1. Clone the repository to your local machine:
-```
-git clone <your-public-git-repository-url>
-
-```
