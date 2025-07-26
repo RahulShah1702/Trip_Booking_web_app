@@ -38,11 +38,11 @@ function TripDetailsPage() {
         </div>
         <div className="pricing-box">
             <h3>Pricing Breakdown</h3>
-            <p><strong>Base Price:</strong> ${trip.price}</p>
-            <p><strong>Taxes & Fees:</strong> ${(trip.price * 0.1).toFixed(2)}</p>
+            <p><strong>Base Price:</strong> Rs{trip.price}</p>
+            <p><strong>Taxes & Fees:</strong> Rs{(trip.price * 0.18).toFixed(2)}</p>
             <hr/>
-            <p><strong>Total:</strong> ${(trip.price * 1.1).toFixed(2)}</p>
-            {/* Update this button to be a Link */}
+            <p><strong>Total:</strong> Rs{(trip.price * 1.18).toFixed(2)}</p>
+            
             <Link to={`/checkout/${trip.id}`} className="book-now-button">Book Now</Link>
         </div>
       </div>

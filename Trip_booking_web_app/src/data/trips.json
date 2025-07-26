@@ -44,5 +44,108 @@
       "Day 5: Seine River Cruise",
       "Day 6: Departure"
     ]
-  }
+  },
+  {
+  "id": 4,
+  "destination": "Cusco & Machu Picchu, Peru",
+  "price": "180000",
+  "duration": "8 days",
+  "rating": "4.9",
+  "images": ["/images/peru1.jpg", "/images/peru2.jpg"],
+  "itinerary": [
+    "Day 1: Arrival in Cusco & Acclimatization",
+    "Day 2: Tour of the Sacred Valley",
+    "Day 3: Vistadome Train to Aguas Calientes",
+    "Day 4: Sunrise at Machu Picchu",
+    "Day 5: Explore Cusco City",
+    "Day 6-7: Rainbow Mountain Trek",
+    "Day 8: Departure"
+  ]
+  },
+  {
+    "id": 5,
+    "destination": "Santorini, Greece",
+    "price": "200000",
+    "duration": "5 days",
+    "rating": "4.8",
+    "images": ["/images/santorini1.jpg", "/images/santorini2.jpg"],
+    "itinerary": [
+      "Day 1: Arrival in Santorini & Sunset at Oia",
+      "Day 2: Explore Fira & Akrotiri Ruins",
+      "Day 3: Beach day at Red Beach",
+      "Day 4: Wine tasting tour",
+      "Day 5: Departure"
+    ]
+  },
+  {
+  "id": 6,
+  "destination": "New York City, USA",
+  "price": "160000",
+  "duration": "6 days",
+  "rating": "4.8",
+  "images": ["/images/nyc1.jpg", "/images/nyc2.jpg"],
+  "itinerary": [
+    "Day 1: Arrival & Times Square Exploration",
+    "Day 2: Statue of Liberty & Financial District",
+    "Day 3: Central Park & Museum Mile",
+    "Day 4: Broadway Show & Greenwich Village",
+    "Day 5: Brooklyn Bridge & DUMBO",
+    "Day 6: Departure"
+  ]
+  },
+  {
+  "id": 7,
+  "destination": "Rome, Italy",
+  "price": "140000",
+  "duration": "7 days",
+  "rating": "4.7",
+  "images": ["/images/rome1.jpg", "/images/rome2.jpg"],
+  "itinerary": [
+    "Day 1: Arrival in Rome",
+    "Day 2: Colosseum & Roman Forum Tour",
+    "Day 3: Vatican City: St. Peter's & Museums",
+    "Day 4: Pantheon, Trevi Fountain & Spanish Steps",
+    "Day 5: Borghese Gallery and Gardens",
+    "Day 6: Food tour in Trastevere",
+    "Day 7: Departure"
+  ]
+  },
+  {
+  "id": 8,
+  "destination": "Queenstown, New Zealand",
+  "price": "200000",
+  "duration": "10 days",
+  "rating": "4.9",
+  "images": ["/images/queenstown1.jpg", "/images/queenstown2.jpg"],
+  "itinerary": [
+    "Day 1: Arrival in Queenstown",
+    "Day 2: Explore the Town & Skyline Gondola",
+    "Day 3-4: Day Trip & Cruise to Milford Sound",
+    "Day 5: Adventure Day (Bungee or Hiking)",
+    "Day 6: Central Otago Winery Tour",
+    "Day 7-9: Relax or Optional Activities",
+    "Day 10: Departure"
+  ]
+ },
+ {
+  "id": 9,
+  "destination": "Reykjavik & South Coast, Iceland",
+  "price": "190000",
+  "duration": "8 days",
+  "rating": "4.8",
+  "images": ["/images/iceland1.jpg", "/images/iceland2.jpg"],
+  "itinerary": [
+    "Day 1: Arrival in Reykjavik & Explore the City",
+    "Day 2: The Golden Circle Tour (Gullfoss, Geysir)",
+    "Day 3: South Coast Waterfalls & Black Sand Beaches",
+    "Day 4: Jökulsárlón Glacier Lagoon & Diamond Beach",
+    "Day 5: Ice Cave Exploration or Glacier Hike",
+    "Day 6: Relax at the Blue Lagoon Spa",
+    "Day 7: Northern Lights Hunt (seasonal)",
+    "Day 8: Departure from Reykjavik"
+  ]
+}
+
+
+
 ]

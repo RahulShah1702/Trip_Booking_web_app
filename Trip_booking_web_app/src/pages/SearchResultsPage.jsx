@@ -42,8 +42,8 @@ function SearchResultsPage() {
           <input type="text" id="location" name="location" onChange={handleFilterChange} placeholder="e.g., Bali" />
         </div>
         <div className="filter-group">
-          <label htmlFor="price">Max Price: {filters.price || 2000}</label>
-          <input type="range" id="price" name="price" min="50000"  max="200000" step="10000" onChange={handleFilterChange} />
+          <label htmlFor="price">Max Price: {filters.price || 50000}</label>
+          <input type="range" id="price" name="price" min="50000"  max="300000" step="10000" onChange={handleFilterChange} />
         </div>
       </aside>
       <div className="results-grid">

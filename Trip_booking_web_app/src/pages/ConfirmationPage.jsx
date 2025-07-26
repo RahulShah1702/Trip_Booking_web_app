@@ -27,7 +27,7 @@ function ConfirmationPage() {
         <h3>Booking Receipt</h3>
         <p><strong>Destination:</strong> {trip.destination}</p>
         <p><strong>Duration:</strong> {trip.duration}</p>
-        <p><strong>Total Paid:</strong> ${(trip.price * 1.1).toFixed(2)}</p>
+        <p><strong>Total Paid:</strong> Rs{(trip.price * 1.18).toFixed(2)}</p>
         <Link to="/" className="home-link">Explore More Trips</Link>
       </div>
     </div>

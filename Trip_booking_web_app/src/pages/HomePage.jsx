@@ -6,7 +6,7 @@ import './HomePage.css';
 
 function HomePage() {
   
-  const featuredTrips = tripData.slice(0, 3);
+  const featuredTrips = tripData.slice(0, 9);
 
   return (
     <div className="home-page">
