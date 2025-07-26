@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "destination": "Bali, Indonesia",
+    "price": "80000",
+    "duration": "7 days",
+    "rating": "4.8",
+    "images": ["/images/bali1.jpg", "/images/bali2.jpg"],
+    "itinerary": [
+      "Day 1: Arrival in Bali",
+      "Day 2: Visit to Uluwatu Temple",
+      "Day 3: Snorkeling at Nusa Dua",
+      "Day 4: Local market tour",
+      "Day 5-7: Relax at beach resort"
+    ]
+  },
+  {
+    "id": 2,
+    "destination": "Kyoto, Japan",
+    "price": "120000",
+    "duration": "5 days",
+    "rating": "4.7",
+    "images": ["/images/kyoto1.jpg", "/images/kyoto2.jpg"],
+    "itinerary": [
+      "Day 1: Arrival in Kyoto",
+      "Day 2: Tour of Kinkaku-ji Temple",
+      "Day 3: Cherry blossom viewing",
+      "Day 4: Local food experience",
+      "Day 5: Departure"
+    ]
+  },
+  {
+    "id": 3,
+    "destination": "Paris, France",
+    "price": "150000",
+    "duration": "6 days",
+    "rating": "4.9",
+    "images": ["/images/paris1.jpg", "/images/paris2.jpg"],
+    "itinerary": [
+      "Day 1: Arrival in Paris & Eiffel Tower",
+      "Day 2: Louvre Museum Tour",
+      "Day 3: Day trip to Versailles",
+      "Day 4: Montmartre & Sacré-Cœur",
+      "Day 5: Seine River Cruise",
+      "Day 6: Departure"
+    ]
+  }
+]

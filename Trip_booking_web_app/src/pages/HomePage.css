@@ -1,0 +1,39 @@
+.home-hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/hero-bg.jpg'); /* Add a background image to public/images */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 8px;
+}
+/* .home-hero img {
+  width: 71.5%;
+  height: 275px;
+  border-radius: 8px;
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  top: 88px;
+  left: 240px;
+  opacity: 1;
+  display: hidden;
+  
+} */
+
+
+.home-hero h1 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.featured-destinations {
+  margin-top: 3rem;
+}
+
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
