@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import tripData from '../data/trips.json';
 import './TripDetailsPage.css';
+import { Link } from 'react-router-dom';
 
 function TripDetailsPage() {
   const { id } = useParams();
@@ -41,7 +42,8 @@ function TripDetailsPage() {
             <p><strong>Taxes & Fees:</strong> ${(trip.price * 0.1).toFixed(2)}</p>
             <hr/>
             <p><strong>Total:</strong> ${(trip.price * 1.1).toFixed(2)}</p>
-            <button className="book-now-button">Book Now</button>
+            {/* Update this button to be a Link */}
+            <Link to={`/checkout/${trip.id}`} className="book-now-button">Book Now</Link>
         </div>
       </div>
     </div>
