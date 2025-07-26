@@ -5,13 +5,13 @@ import TripCard from '../components/TripCard';
 import './HomePage.css';
 
 function HomePage() {
-  // For demonstration, we'll feature the first 3 trips
+  
   const featuredTrips = tripData.slice(0, 3);
 
   return (
     <div className="home-page">
       <header className="home-hero">
-        {/* <img src="images/bg.jpg" alt="" srcset="" /> */}
+        <img src="images/bg.jpg" alt="" srcset="" />
         <h1>Find Your Dream Vacation</h1>
         <p>Explore the world with XYZ Travel Agency</p>
         {/* You can add a SearchBar component here */}

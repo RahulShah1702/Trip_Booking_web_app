@@ -7,19 +7,22 @@
   color: white;
   border-radius: 8px;
 }
-/* .home-hero img {
-  width: 71.5%;
+.home-hero img {
+  width: 100%;
+  max-width: 1200px;
   height: 275px;
   border-radius: 8px;
   display: flex;
   position: absolute;
   z-index: -1;
   top: 88px;
-  left: 240px;
+  /* left: 24px; */
+  margin-left: -15px;
   opacity: 1;
-  display: hidden;
+  object-fit: cover;
+  object-position: center;
   
-} */
+}
 
 
 .home-hero h1 {

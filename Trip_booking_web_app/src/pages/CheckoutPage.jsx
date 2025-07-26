@@ -32,7 +32,7 @@ function CheckoutPage() {
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       newErrors.email = 'Email address is invalid';
     }
-    if (!formData.phoneNumber) newErrors.phoneNumber = 'Phone number is required';
+    // if (!formData.phone) newErrors.phone = 'Phone number is required';
     if (!formData.cardNumber) newErrors.cardNumber = 'Card number is required';
     if (!formData.expiryDate) newErrors.expiryDate = 'Expiry date is required';
     if (!formData.cvv) newErrors.cvv = 'CVV is required';
@@ -75,9 +75,9 @@ function CheckoutPage() {
           {errors.email && <p className="error-text">{errors.email}</p>}
         </div>
          <div className="form-group">
-          <label htmlFor="cardNumber">Phone Number</label>
-          <input type="text" id="PhoneNumber" name="PhoneNumber" value={formData.phoneNumber} onChange={handleInputChange} />
-          {errors.phoneNumber && <p className="error-text">{errors.phoneNumber}</p>}
+          <label htmlFor="phone">Phone Number</label>
+          <input type="text" id="Phone" name="Phone" value={formData.phone} onChange={handleInputChange} />
+          {errors.phone && <p className="error-text">{errors.phone}</p>}
         </div>
         
         <h2>Payment Information</h2>
