@@ -59,7 +59,7 @@ function CheckoutPage() {
         <img src={trip.images[0]} alt={trip.destination} className="summary-image" />
         <h3>{trip.destination}</h3>
         <p><strong>Duration:</strong> {trip.duration}</p>
-        <p className="summary-price"><strong>Total Price:</strong> Rs{(trip.price * 1.1).toFixed(2)}</p>
+        <p className="summary-price"><strong>Total Price:</strong> Rs{(trip.price * 1.18).toFixed(2)}</p>
       </div>
       <form onSubmit={handleSubmit} className="checkout-form" noValidate>
         <h2>Your Details</h2>

@@ -11,7 +11,7 @@ function HomePage() {
   return (
     <div className="home-page">
       <header className="home-hero">
-        <img src="images/bg.jpg" alt="" srcset="" />
+        
         <h1>Find Your Dream Vacation</h1>
         <p>Explore the world with RR Travels</p>
       </header>

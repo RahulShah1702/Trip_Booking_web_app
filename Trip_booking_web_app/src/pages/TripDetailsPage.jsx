@@ -17,13 +17,13 @@ function TripDetailsPage() {
       <div className="details-header">
         <h1>{trip.destination}</h1>
         <div className="quick-info">
-          <span>{trip.duration}</span> • <span>${trip.price}</span> • <span>⭐ {trip.rating}</span>
+          <span>{trip.duration}</span> • <span>Rs{trip.price}</span> • <span>⭐ {trip.rating}</span>
         </div>
       </div>
       
       <div className="image-gallery">
         {trip.images.map((image, index) => (
-          <img key={index} src={image} alt={`${trip.destination} view ${index + 1}`} />
+          <img key={index} src={image} alt={`Rs{trip.destination} view ${index + 1}`} />
         ))}
       </div>
 
